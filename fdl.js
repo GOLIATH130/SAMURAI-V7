@@ -296,10 +296,7 @@ const vcard = 'BEGIN:VCARD\n'
             + 'ORG: SM;\n' 
             + 'TEL;type=CELL;type=VOICE;waid=573174581139:+57 318-458-1139\n'  //ganti nomor lu! 
             + 'END:VCARD'
-prefix = '#'
 prefix = '!'
-prefix = '/'
-prefix = '.'
 blocked = []   
 limitawal = 10000
 memberlimit = 1
