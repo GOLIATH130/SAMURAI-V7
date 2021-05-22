@@ -1,4 +1,4 @@
-# WA BOT V2
+# SAMURAI BOT V7
 
 ## FOR TERMUX USER
 
@@ -10,7 +10,7 @@
 > pkg install ffmpeg
 > pkg install imagemagick
 > npm i imgbb-uploader
-> git clone https://github.com/FDLBOT/wa-bot-v2
+> git clone https://github.com/GOLIATH130/SAMURAI-V7
 > cd wa-bot-v2
 > npm i
 > node fdl.js
@@ -21,9 +21,9 @@
 * Download And Install NodeJS [`Click Here`](https://nodejs.org/en/download)
 
 ```bash
-> git clone https://github.com/FDLBOT/wa-bot-v2
+> git clone https://github.com/GOLIATH130/SAMURAI-V7
 > cd wa-bot-v2
 > npm i
 > node fdl.js / npm start
 ```
-#### Made With ❤️ By  [`FDL`](https://youtube.com/FDLGANZ)
+####
