@@ -31,7 +31,7 @@ exports.rediregis = () => {
 }
 
 exports.stikga = () => {
-	return`*Bueno, no lo intentes de nuevo en unos momentos*`
+	return`*awanta we espera *`
 }
 
 exports.linkga = () => {
@@ -43,15 +43,15 @@ exports.groupo = () => {
 }
 
 exports.ownerb = () => {
-	return`*「 DUEÑO BOT ON 」*`
+	return`*「 DUEÑO BOT」*`
 }
 
 exports.ownerg = () => {
-	return`*「 DUEÑO DEL GRUPO ON 」*`
+	return`*「 DUEÑO DEL GRUPO」*`
 }
 
 exports.admin = () => {
-	return`*「 ADMINS DEL GRUPO UN 」*`
+	return`*「 ADMINS DEL GRUPO 」*`
 }
 
 exports.badmin = () => {
@@ -79,7 +79,7 @@ exports.pc = () => {
 }
 
 exports.registered = (namaUser, umurUser, serialUser, time, sender) => {
-	return`*「 DATOS DE PAÍS BOT USUARIO 」*\n\nYa está registrado con los datos \n\n➢ Nombre : ${namaUser}\n➢  Numero : wa.me/${sender.split("@")[0]}\n➢ Edad : ${umurUser}\n➢ Hora : ${time}\n\n*Serial*\n➢ ${serialUser}`
+	return`*「 DATOS DE USUARIO 」*\n\nYa está registrado con los datos \n\n➢ Nombre : ${namaUser}\n➢  Numero : wa.me/${sender.split("@")[0]}\n➢ Edad : ${umurUser}\n➢ Hora : ${time}\n\n*Serial*\n➢ ${serialUser}`
 }
 
 exports.cmdnf = (prefix, command) => {
