@@ -6399,9 +6399,9 @@ case 'bneon':
 
                   }
 
-       if (budy.includes(`bot`)) {
+       if (budy.includes(`xd`)) {
 
-                  reply(`OCUPADO WEE 🗣`)
+                  reply(`XD:V`)
 
                   }
  
