@@ -13,4 +13,4 @@ npm i
 wget -O ~/../usr/share/tessdata/ind.traineddata "https://github.com/tesseract-ocr/tessdata/blob/master/ind.traineddata?raw=true"
 npm install
 
-echo "[*] Semua telah di install, Untuk menjalankan ketik \"node fdl.js\" 👍"
+echo "[*] Todo ha sido instalado, para ejecutar el tipo \"node fdl.js\"🥺"
