@@ -530,7 +530,7 @@ client.on('group-participants-update', async (anu) => {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `Joder que bueno verte por aca wee :)\n\nUsuario : @${num.split('@')[0]}\nBienvenido a: *${mdata.subject}*\n\nEspero la pases super\n\nUsa*${prefix}smbot* para ver los comandos`
+				teks = `Joder que bueno verte por aca wee🥺 :)\n\nUsuario : @${num.split('@')[0]}\nBienvenido a: *${mdata.subject}*\n\nEspero la pases super\n\nUsa*${prefix}smbot* para ver los comandos🌝`
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 				} else if (anu.action == 'remove') {
@@ -540,7 +540,7 @@ client.on('group-participants-update', async (anu) => {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `*Porfin te fuiste * @${num.split('@')[0]} Da igual ya no te querimos bye`
+				teks = `*Porfin te fuiste🌝* @${num.split('@')[0]} Da igual ya no te querimos bye🌚`
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			}
