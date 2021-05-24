@@ -937,10 +937,10 @@ client.on('group-participants-update', async (anu) => {
                     return reply("CUIDADO CON LO QUE DICES!! 😠")
                         .then(() => client.groupRemove(from, sender))
                         .then(() => {
-                            client.sendMessage(from, `*「 ANTI BADWORD 」*\nBot akan mengeluarkan kamu karena berkata kasar!`, text ,{quoted: mek})
+                            client.sendMessage(from, `*「 ANTI BADWORD 」*\nEl bot te echará por hablar con dureza!`, text ,{quoted: mek})
                         }).catch(() => client.sendMessage(from, `Untung Bot Bukan Admin. Coba Kalo Admin Udah Bott Kick Tuh -_-`, text , {quoted : mek}))
                 } else {
-                    return reply( "Tolong Jaga Ucapan Min 😇")
+                    return reply( "cuida lo que deices wee😇")
                 }
             }
         }
